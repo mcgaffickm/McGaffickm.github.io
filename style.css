@@ -1,12 +1,15 @@
+
 /* Background color for top */
 .topnav {
     background-color: #115E91;
     overflow: hidden;
+    display:flex;
+    justify-content: center;
+
   }
   
   /* Color for links */
   .topnav a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
