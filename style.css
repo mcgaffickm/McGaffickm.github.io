@@ -8,6 +8,26 @@
 
   }
   
+  h1{
+    justify-content: center;
+    text-align: center;
+  }
+  
+
+  h2{
+    justify-content: center;
+    text-align: center;
+  }
+
+  h4{
+    padding-left: 50px;
+  }
+
+  .doubletab{
+    margin-left:100px;
+    display:inline-block;
+  }
+
   /* Color for links */
   .topnav a {
     color: #f2f2f2;
