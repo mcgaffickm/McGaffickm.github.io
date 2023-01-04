@@ -23,6 +23,11 @@
     padding-left: 50px;
   }
 
+  .singletab{
+    margin-left:50px;
+    display:inline-block;
+  }
+
   .doubletab{
     margin-left:100px;
     display:inline-block;
