@@ -33,6 +33,12 @@
     display:inline-block;
   }
 
+  .centercontainer{
+    width:100%;
+    text-align:center;
+    justify-content:center;
+  }
+
   /* Color for links */
   .topnav a {
     color: #f2f2f2;
