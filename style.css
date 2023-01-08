@@ -26,11 +26,13 @@
   .singletab{
     margin-left:50px;
     display:inline-block;
+    line-height: 2;
   }
 
   .doubletab{
     margin-left:100px;
     display:inline-block;
+    line-height: 2;
   }
 
   .centercontainer{
@@ -51,6 +53,10 @@
   .topnav a:hover {
     background-color: #ABB3E9;
     color: black;
+  }
+
+  img{
+    border: 10px solid #555;
   }
   
   /* Color for current link */
