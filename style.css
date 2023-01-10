@@ -55,12 +55,32 @@
     color: black;
   }
 
+   /* Color for current link */
+   .topnav a.active {
+    background-color: #239EF0;
+    color: black;
+  }
+
   img{
     border: 10px solid #555;
   }
+
+  /* Color for links */
+  .topnav2 a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 19px;
+  }
   
-  /* Color for current link */
-  .topnav a.active {
+  /* Color for hovering */
+  .topnav2 a:hover {
+    background-color: #ABB3E9;
+    color: black;
+  }
+
+   /* Color for current link */
+   .topnav2 a.active {
     background-color: #239EF0;
     color: black;
   }
