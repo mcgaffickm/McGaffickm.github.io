@@ -30,30 +30,57 @@
     <span class="doubletab">
             To explain what functionality was used, I feel that it is best to describe it like a walkthrough.  The first part of the game has the user determine the options they want to set.  One of them being the portrait or landscape mode, which remains the same throughout the game to prevent any errors when flipping the display.  A companion guide can also be enabled by providing your cell phone number, which will allow SMS messages from your number to your number for additional information on the room you currently enter.  You also have the option to enable the light sensor which will be described later.  Cheats were also available for infinite lives and hints, which enabled an additional room.  Both of these prevented the player from accessing a hint room.
     </span>
-    <h4>Options</h4>
-    <span class="doubletab">
-    
-    </span>
     <h4>Navigation and Bonus Rooms</h4>
     <span class="doubletab">
         Navigation through the main intro sequence is done using the tabs across the top of the screen, which allow you to flip through the four pages of story.  Navigation during the main game is done with a side navigation bar that allows you to quickly switch between rooms and your inventory with new ones being added as found.  The music room is a bonus room that allows the user to switch the music that plays in the background during the course of the game.  The newspaper room provides the user with additional lore regarding the game and only occurs when the conditions for the best ending are present.
     </span>
     <h4>Puzzles</h4>
     <span class="doubletab">
-        This section will describe each puzzle and the functionality programmed in it.  The armory uses a view pager that allows the user to click between armor sets that secretly show symbols in each of them and the user can take a lighter and hammer from different pages.
-        <br>The king's room presents a puzzle that the user needs to select which crests matched with each armor using radio buttons and radio button groups.  They will do this to receive a decoder.
-        <br>The library is simply a photoshopped image with underlined book titles that has a zoom functionality.  These titles can be put into the decoder, which accesses a SQLite database to spit out results with one being a key item.
-        <br>The inventory holds the decoder mentioned above while also display a dynamically changing view based on which items were found and how many lives were lost.
-        <br>The cells uses a seek bar for the user to switch between images to find clues within them.  One of the images is a cracked wall, which can be tapped repeatedly with the hammer to break open and access a new room.
-        <br>The tower has four switches that need to be activated based on the images found in the cells to receive the second key item.
-        <br>The secret area from the cells has four orb items that looks similar.  However if you have the lighter item, then you can use the light sensor in your phone to illuminate the area by holding your actual device up to a light source and find which orb is different.  If you disabled this feature in the options, you can tap on the screen with the lighter to change the view.  The user receives the third key item.
-        <br>The alchemy lab tasks the player with drinking different potions, which cause 'hallucinations' in the form of videos that have hints and puzzles within them for anotther room.  This room utilizes a video player that can change what is being played based on which potion is used.
-        <br>The main door requires the placement of the three key items in a specific order based on the alchemy lab.
-        <br>The final trial area requires the player to revisit the lab, armory, cells, and library to determine a specific order to light a set of torches in.
-        <br>Ending 1 (bad) occurs whenever the user provides the incorrect answer for puzzles three times.
-        <br>Ending 2 (worst) occurs whenever you fail the final trial puzzle.
-        <br>Ending 3 (good) occurs whenever you complete the final trial without the conditions for the best ending or if you have cheats on.
-        <br>Ending 4 (best) occurs after completing the following sequence of events.  First a specific hint is in the king's room that gives you a code to input into the decoder that leads to need the binary representation of another puzzle.  Inputting this gives you another number, this time a phone number that needs to be entered in the options menu.  For the tower, library, and king's room on your playthrough with this number in the options field, you will receive a toast message with a secret combination to enter.  You will then need to go to the lab where you will find a newspaper and then need to complete the game normally to get the best ending.
+        This section will describe each puzzle and the functionality programmed in it.  
+        <ul>
+            <li>
+                The armory uses a view pager that allows the user to click between armor sets that secretly show symbols in each of them and the user can take a lighter and hammer from different pages.
+            </li>
+            <li>
+                The king's room presents a puzzle that the user needs to select which crests matched with each armor using radio buttons and radio button groups.  They will do this to receive a decoder.
+            </li>
+             <li>   
+                The library is simply a photoshopped image with underlined book titles that has a zoom functionality.  These titles can be put into the decoder, which accesses a SQLite database to spit out results with one being a key item.
+            </li>
+            <li>
+                The inventory holds the decoder mentioned above while also display a dynamically changing view based on which items were found and how many lives were lost.
+            </li>
+            <li>
+                The cells uses a seek bar for the user to switch between images to find clues within them.  One of the images is a cracked wall, which can be tapped repeatedly with the hammer to break open and access a new room.
+            </li>
+            <li>
+                The tower has four switches that need to be activated based on the images found in the cells to receive the second key item.
+            </li>
+            <li>
+                The secret area from the cells has four orb items that looks similar.  However if you have the lighter item, then you can use the light sensor in your phone to illuminate the area by holding your actual device up to a light source and find which orb is different.  If you disabled this feature in the options, you can tap on the screen with the lighter to change the view.  The user receives the third key item.
+            </li>
+            <li>
+                The alchemy lab tasks the player with drinking different potions, which cause 'hallucinations' in the form of videos that have hints and puzzles within them for anotther room.  This room utilizes a video player that can change what is being played based on which potion is used.
+            </li>
+            <li>
+                The main door requires the placement of the three key items in a specific order based on the alchemy lab.
+            </li>
+            <li>
+                The final trial area requires the player to revisit the lab, armory, cells, and library to determine a specific order to light a set of torches in.
+            </li>
+            <li>
+                Ending 1 (bad) occurs whenever the user provides the incorrect answer for puzzles three times.
+            </li>
+            <li>
+                Ending 2 (worst) occurs whenever you fail the final trial puzzle.
+            </li>
+            <li>
+                Ending 3 (good) occurs whenever you complete the final trial without the conditions for the best ending or if you have cheats on.
+            </li>
+            <li>
+                Ending 4 (best) occurs after completing the following sequence of events.  First a specific hint is in the king's room that gives you a code to input into the decoder that leads to need the binary representation of another puzzle.  Inputting this gives you another number, this time a phone number that needs to be entered in the options menu.  For the tower, library, and king's room on your playthrough with this number in the options field, you will receive a toast message with a secret combination to enter.  You will then need to go to the lab where you will find a newspaper and then need to complete the game normally to get the best ending.
+            </li>
+        </ul>
     </span> 
     <div class="centercontainer">
         <a href="https://github.com/mcgaffickm/CodeForAndroidDevProject">View Code Here</a>
