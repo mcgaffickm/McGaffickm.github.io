@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <!-- Style sheet added for each webpage-->
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--Header with name and -->
+        <h1>Michael McGaffick</h1>
+        <h2>Computer Science Graduate, Aspiring Software Developer</h2>
+         
+        <!-- Navigation bar for each part of webpage-->
+        <div class="topnav">
+            <a href="index">Home</a>
+            <a class = "active" href="capstone">Projects</a>
+            <a href="languages">Appendix</a>
+        </div>
+        <br>
+        <div class="topnav2">
+            <a href="capstone">Major Projects</a>
+            <a href="simulation">Other Projects</a>
+            <a class="active" href="nutritional">Personal Projects</a>
+        </div>
+        <br>
+        <div class="topnav3">
+            <a class = "active" href="nutritional">Nutritional Analyzer</a>      
+        </div>
+
+    <h2>Nutritional Analyzer (Work in Progress) April 2024 - Current</h2>
+    <h3>About</h3>
+    <span class="singletab">
+         This personal project is designed for me to learn to use React and Spring Boot.  This project allows the user to enter food nutritional information and then get basic statistics such as mean, median, mode, and totals for the values enter per date.  It uses Rest APIs to communicate between the JPA Repository in the Spring BackEnd to the React front-end.  It is written in Java, HTML, JavaScript, and CSS.
+    </span>
+    <h3>Add A Food</h3>
+    <span class="singletab">
+         This page allows the user to enter food data, the date eaten, and the name of a food.  It then sends the data over Rest APIs to the spring backend and stores it in a JPA repository.
+    </span>
+    <h3>View All Food</h3>
+    <span class="singletab">
+         This page allows the user to view the contents of the JPA repository through another API post call.  It shows the id values, the name of the food, the values entered for the food, and the date.
+    </span>
+    <h3>Totals</h3>
+    <span class="singletab">
+         This page currently gets the total values per date for all the foods' values.  It also provides the individual mean, median, and mode for the data set.
+    </span>
+    <div class="centercontainer">
+        <a href="https://github.com/mcgaffickm/Nutrition">View Code Here</a>
+    </div>
+    <h3>Gallery</h3>
+    <img src="Images/Nutritional/Nutritional1.png" width = "1000px" height="1000px">
+    <img src="Images/Nutritional/Nutritional2.png" width = "1000px" height="1000px">
+    </body>
+</html>
+
